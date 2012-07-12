@@ -19,7 +19,7 @@ ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
 # the main menu. Tags will not appear on the menu.
 DEFAULT_CATEGORY = 'Blog'
 
-SITEURL = 'http://www.potara.com.ar'
+SITEURL = 'http://potara.com.ar'
 
 # I like to have ``Archives`` in the main menu.
 MENUITEMS = (
