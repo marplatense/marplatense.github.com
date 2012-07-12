@@ -2,14 +2,14 @@
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
-THEME = 'notmyidea'
+THEME = './themes/giallo/'
 
 # The folder ``images`` should be copied into the folder ``static`` when
 # generating the output.
-STATIC_PATHS = ['images', ]
+STATIC_PATHS = ['images']
 
 # See http://pelican.notmyidea.org/en/latest/settings.html#timezone
-TIMEZONE = 'UTC'
+TIMEZONE = 'America/Argentina/Cordoba'
 
 # Pelican will take the ``Date`` metadata and put the articles into folders
 # like ``/posts/2012/02/`` when generating the output.
@@ -24,11 +24,12 @@ SITEURL = 'http://potara.com.ar'
 # I like to have ``Archives`` in the main menu.
 MENUITEMS = (
     ('Archives', '{0}/archives.html'.format(SITEURL)),
+    ('Tutorials', '{0}/tutorials.html'.format(SITEURL)),
 )
 
 
 AUTHOR = 'Mariano Mara'
-SITENAME = 'potara.com.ar'
+SITENAME = "Mariano Mara's Personal Page"
 
 WITH_PAGINATION = True
 DEFAULT_PAGINATION = 10
