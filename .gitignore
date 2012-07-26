@@ -1,6 +1,6 @@
 source/cache
 source/cache/*
-*.pyc
+conf.pyc
 *.swp
 source/cache/.mako.tmp/*
 source/.doit.db

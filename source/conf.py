@@ -170,7 +170,7 @@ style="border-width:0; margin-bottom:12px;"
 src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML)
-CONTENT_FOOTER = u'Contents &copy; 2012 Example Joe'
+CONTENT_FOOTER = u'Contents &copy; 2012 Mariano Mara'
 
 # To enable comments via Disqus, you need to create a forum at
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
@@ -237,9 +237,9 @@ GLOBAL_CONTEXT = {
         'en': (
             ('/' + os.path.join(ARCHIVE_PATH, ARCHIVE_FILENAME), 'Archives'),
             ('/categories/index.html', 'Tags'),
-            ('/stories/about-nikola.html', 'About Nikola'),
-            ('/stories/handbook.html', 'The Nikola Handbook'),
-            ('http://nikola.ralsina.com.ar', 'Powered by Nikola!'),
+            ('/tutoriales/index.html', 'Tutoriales'),
+            #('/stories/handbook.html', 'The Nikola Handbook'),
+            #('http://nikola.ralsina.com.ar', 'Powered by Nikola!'),
             )
         }
     }
