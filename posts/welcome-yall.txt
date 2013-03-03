@@ -1,0 +1,9 @@
+.. title: Welcome y'all!
+.. slug: welcome-yall
+.. date: 2013/03/03 11:48:32
+.. tags: welcome, test
+.. link: 
+.. description: 
+
+
+This is just an example to see how it goes.
